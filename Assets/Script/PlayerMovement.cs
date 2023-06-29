@@ -30,7 +30,17 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
+    #region AnimationHandler
+    private Animator animator;
+    private void PlayWalk()
+    {
+        animator.SetTrigger("goWalk");
+    }
+    private void PlayJump()
+    {
+        animator.SetTrigger("goJump");
+    }
+    #endregion
 
     void FixedUpdate()
     {
