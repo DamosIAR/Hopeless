@@ -16,3 +16,12 @@ These are the control to navigate through obstacles
 | A | Move Left |
 | D | Move Right |
 | Space | Jump |
+
+#
+
+### Scripts
+| Scripts Name | Description |
+| ------------ | ----------- |
+| CameraFollow.cs | This script is used to make the camera follow the player |
+| Gravity.cs | This script is used to control the gravity in the game |
+| PlayerMovement.cs | This script is used to control player movement |
