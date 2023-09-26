@@ -5,10 +5,12 @@ A 2D platformer game is a type of video game that features a two-dimensional env
 #
 
 ### About Hopeless
-Testing
+Hopeless is a 2D platformer game in which your objective is to reach a guiding light while skillfully navigating past various obstacles in your path. The obstacles in question encompass a swinging hazard suspended from the ceiling, a descending threat, and a platform that can crumble beneath your feet.
+
 #
 
 ### Game Control
+These are the control to navigate through obstacles
 | Key Binding | Function |
 | ----------- | -------- |
 | A | Move Left |
