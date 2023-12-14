@@ -12,6 +12,6 @@ public class Quit : MonoBehaviour
 
     public void QuitApp(){
         Application.Quit();
-        Debug.Log("quit");
+        //Debug.Log("quit");
     }
 }

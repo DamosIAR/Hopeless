@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
  
     
         // Mengaktifkan lompatan player jika player menyentuh tanah
-        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.001f)
+        if (Input.GetKeyDown(KeyCode.Space)) //&& Mathf.Abs(rb.velocity.y) < 0.001f)
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
 
